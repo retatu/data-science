@@ -16,4 +16,4 @@ print(df.loc['G1'].loc[1]['A'])
 df.index.names = ['Grupo', 'Subgrupo']
 print(df)
 #Ao utilizar este no lugar do loc, pode passar direto o nivel mais interno, sem precisar acessar o mais externo primeiro
-print(df.xs(2))
+print(df.xs(2, level='Subgrupo'))
