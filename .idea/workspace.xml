@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d7f78cf-0658-4eac-a2f7-0d65101d4480" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/seaborn/pair_grids.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seaborn/estilos_cores.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,42 +15,55 @@
     <session id="1458636331">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="8" />
+          <entry key="py" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="8" />
+          <entry key="Python" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="5213" />
+          <entry key="py" value="5803" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="5213" />
+          <entry key="Python" value="5803" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/seaborn/pair_grids.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/seaborn/estilos_cores.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -79,6 +92,7 @@
         <option value="$PROJECT_DIR$/seaborn/plots_matriciais.py" />
         <option value="$PROJECT_DIR$/seaborn/plots_regressao.py" />
         <option value="$PROJECT_DIR$/seaborn/pair_grids.py" />
+        <option value="$PROJECT_DIR$/seaborn/estilos_cores.py" />
       </list>
     </option>
   </component>
@@ -135,8 +149,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.pair_grids">
-    <configuration name="graficos" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.estilos_cores">
+    <configuration name="estilos_cores" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data-science" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -148,7 +162,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/seaborn/graficos.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/seaborn/estilos_cores.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -243,18 +257,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.plots_distribuicao" />
-      <item itemvalue="Python.graficos" />
       <item itemvalue="Python.plots_matriciais" />
       <item itemvalue="Python.plots_regressao" />
       <item itemvalue="Python.pair_grids" />
+      <item itemvalue="Python.estilos_cores" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.estilos_cores" />
         <item itemvalue="Python.pair_grids" />
         <item itemvalue="Python.plots_distribuicao" />
         <item itemvalue="Python.plots_regressao" />
         <item itemvalue="Python.plots_matriciais" />
-        <item itemvalue="Python.graficos" />
       </list>
     </recent_temporary>
   </component>
@@ -280,7 +294,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -310,9 +324,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="4" selection-start-line="4" selection-end-line="6" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -320,9 +331,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -330,16 +338,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" selection-start-line="4" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seaborn/pair_grids.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="31" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seaborn/pair_grids.py">
+    <entry file="file://$PROJECT_DIR$/seaborn/estilos_cores.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+        <state relative-caret-position="441">
+          <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
