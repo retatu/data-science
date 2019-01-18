@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d7f78cf-0658-4eac-a2f7-0d65101d4480" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/plotly_cufflinks/plotly_cufflinks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plotly_cufflinks/plots_geograficos/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plotly_cufflinks/plots_geograficos/parte1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plotly_cufflinks/plotly_cufflinks.py" beforeDir="false" afterPath="$PROJECT_DIR$/plotly_cufflinks/plotly_cufflinks.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,44 +17,56 @@
     <session id="1458636331">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.4" value="4" />
           <entry key="project.open.time.5" value="3" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="33" />
+          <entry key="py" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="33" />
+          <entry key="Python" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="9255" />
+          <entry key="py" value="9988" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="9255" />
+          <entry key="Python" value="9988" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plotly_cufflinks/plotly_cufflinks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="187">
+              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/plotly_cufflinks/plots_geograficos/parte1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -63,7 +77,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/IPython/core/display.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
+            <state relative-caret-position="11526">
               <caret line="688" column="64" selection-start-line="688" selection-start-column="42" selection-end-line="688" selection-end-column="64" />
             </state>
           </provider>
@@ -84,7 +98,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/seaborn/estilos_cores.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3">
+            <state>
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -118,6 +132,7 @@
         <option value="$PROJECT_DIR$/pandas/visualizacao_dados.py" />
         <option value="$PROJECT_DIR$/pandas/exercicios_visualizacao_dados.py" />
         <option value="$PROJECT_DIR$/plotly_cufflinks/plotly_cufflinks.py" />
+        <option value="$PROJECT_DIR$/plotly_cufflinks/plots_geograficos/parte1.py" />
       </list>
     </option>
   </component>
@@ -145,7 +160,13 @@
             <path>
               <item name="data-science" type="b2602c69:ProjectViewProjectNode" />
               <item name="data-science" type="462c0819:PsiDirectoryNode" />
-              <item name="pandas" type="462c0819:PsiDirectoryNode" />
+              <item name="plotly_cufflinks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data-science" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-science" type="462c0819:PsiDirectoryNode" />
+              <item name="plotly_cufflinks" type="462c0819:PsiDirectoryNode" />
+              <item name="plots_geograficos" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -174,7 +195,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.plotly_cufflinks">
+  <component name="RunManager" selected="Python.parte1">
     <configuration name="exercicio" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data-science" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -217,7 +238,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pair_grids" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="parte1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data-science" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -225,11 +246,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/seaborn" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/plotly_cufflinks/plots_geograficos" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/seaborn/pair_grids.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plotly_cufflinks/plots_geograficos/parte1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -282,18 +303,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.exercicio" />
-      <item itemvalue="Python.pair_grids" />
       <item itemvalue="Python.visualizacao_dados" />
       <item itemvalue="Python.exercicios_visualizacao_dados" />
       <item itemvalue="Python.plotly_cufflinks" />
+      <item itemvalue="Python.parte1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.parte1" />
         <item itemvalue="Python.plotly_cufflinks" />
         <item itemvalue="Python.exercicios_visualizacao_dados" />
         <item itemvalue="Python.visualizacao_dados" />
         <item itemvalue="Python.exercicio" />
-        <item itemvalue="Python.pair_grids" />
       </list>
     </recent_temporary>
   </component>
@@ -319,7 +340,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -427,18 +448,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seaborn/estilos_cores.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/IPython/core/display.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="11526">
+          <caret line="688" column="64" selection-start-line="688" selection-start-column="42" selection-end-line="688" selection-end-column="64" />
         </state>
       </provider>
     </entry>
@@ -452,17 +468,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/IPython/core/display.py">
+    <entry file="file://$PROJECT_DIR$/seaborn/estilos_cores.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="688" column="64" selection-start-line="688" selection-start-column="42" selection-end-line="688" selection-end-column="64" />
+        <state>
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/plotly_cufflinks/plotly_cufflinks.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="187">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plotly_cufflinks/plots_geograficos/parte1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>

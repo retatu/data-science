@@ -5,8 +5,6 @@ import cufflinks as cf
 import plotly as py
 from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
 
-
-
 init_notebook_mode(connected=False)
 cf.go_offline()
 
