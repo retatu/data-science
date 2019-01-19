@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d7f78cf-0658-4eac-a2f7-0d65101d4480" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/plotly_cufflinks/plots_geograficos/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plotly_cufflinks/plots_geograficos/parte1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plotly_cufflinks/plots_geograficos/pib_mundial.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotly_cufflinks/plotly_cufflinks.py" beforeDir="false" afterPath="$PROJECT_DIR$/plotly_cufflinks/plotly_cufflinks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plotly_cufflinks/plots_geograficos/parte1.py" beforeDir="false" afterPath="$PROJECT_DIR$/plotly_cufflinks/plots_geograficos/exportacoes_usa.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plotly_cufflinks/plots_geograficos/temp-plot.html" beforeDir="false" afterPath="$PROJECT_DIR$/plotly_cufflinks/plots_geograficos/temp-plot.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,33 +17,35 @@
     <session id="1458636331">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.4" value="4" />
           <entry key="project.open.time.5" value="3" />
-          <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.open.time.6" value="3" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="34" />
+          <entry key="py" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="34" />
+          <entry key="Python" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="9988" />
+          <entry key="dummy" value="34" />
+          <entry key="py" value="10151" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="9988" />
+          <entry key="PLAIN_TEXT" value="34" />
+          <entry key="Python" value="10151" />
         </counts>
       </usages-collector>
     </session>
@@ -51,10 +53,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plotly_cufflinks/plotly_cufflinks.py">
+        <entry file="file://$PROJECT_DIR$/plotly_cufflinks/plots_geograficos/exportacoes_usa.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+            <state>
+              <caret selection-end-line="5" selection-end-column="30" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -63,10 +65,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/plotly_cufflinks/plots_geograficos/parte1.py">
+        <entry file="file://$PROJECT_DIR$/plotly_cufflinks/plots_geograficos/pib_mundial.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+            <state relative-caret-position="357">
+              <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -133,6 +135,8 @@
         <option value="$PROJECT_DIR$/pandas/exercicios_visualizacao_dados.py" />
         <option value="$PROJECT_DIR$/plotly_cufflinks/plotly_cufflinks.py" />
         <option value="$PROJECT_DIR$/plotly_cufflinks/plots_geograficos/parte1.py" />
+        <option value="$PROJECT_DIR$/plotly_cufflinks/plots_geograficos/mapa_mundo.py" />
+        <option value="$PROJECT_DIR$/plotly_cufflinks/plots_geograficos/pib_mundial.py" />
       </list>
     </option>
   </component>
@@ -150,6 +154,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,7 +177,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -195,28 +199,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.parte1">
-    <configuration name="exercicio" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="data-science" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/seaborn" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/seaborn/exercicio.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.pib_mundial">
     <configuration name="exercicios_visualizacao_dados" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data-science" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -250,7 +233,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plotly_cufflinks/plots_geograficos/parte1.py" />
+      <option name="SCRIPT_NAME" value="D:\Sources\data-science\plotly_cufflinks\plots_geograficos\exportacoes_usa.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pib_mundial" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="data-science" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/plotly_cufflinks/plots_geograficos" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plotly_cufflinks/plots_geograficos/pib_mundial.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -302,19 +306,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.exercicio" />
       <item itemvalue="Python.visualizacao_dados" />
       <item itemvalue="Python.exercicios_visualizacao_dados" />
       <item itemvalue="Python.plotly_cufflinks" />
       <item itemvalue="Python.parte1" />
+      <item itemvalue="Python.pib_mundial" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.pib_mundial" />
         <item itemvalue="Python.parte1" />
         <item itemvalue="Python.plotly_cufflinks" />
         <item itemvalue="Python.exercicios_visualizacao_dados" />
         <item itemvalue="Python.visualizacao_dados" />
-        <item itemvalue="Python.exercicio" />
       </list>
     </recent_temporary>
   </component>
@@ -479,18 +483,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/plotly_cufflinks/plotly_cufflinks.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        <state>
+          <caret selection-end-line="8" selection-end-column="15" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plotly_cufflinks/plots_geograficos/parte1.py">
+    <entry file="file://$PROJECT_DIR$/plotly_cufflinks/plots_geograficos/exportacoes_usa.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+        <state>
+          <caret selection-end-line="5" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plotly_cufflinks/plots_geograficos/pib_mundial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
