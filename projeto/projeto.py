@@ -40,3 +40,45 @@ plt.show()
 sns.countplot(x='Month', data=df, hue='Reason')
 plt.legend(bbox_to_anchor=(1.05,1), loc=2, borderaxespad=0.)
 plt.show()
+
+#Criar dataframe e agrupar por mes, e utilizar o método count
+byMonth = df.groupby('Month').count()
+print(byMonth)
+
+byMonth['twp'].plot()
+plt.show()
+
+sns.lmplot(x='Month',y='twp', data=byMonth.reset_index())
+plt.show()
+
+df['Date'] = df['timeStamp'].apply(lambda x : x.date())
+print(df['Date'])
+
+
+byDate = df.groupby('Date').count()
+byDate['twp'].plot()
+plt.show()
+
+df[df['Reason']=='Fire'].groupby('Date').count()['twp'].plot()
+plt.show()
+
+df[df['Reason']=='EMS'].groupby('Date').count()['twp'].plot()
+plt.show()
+
+df[df['Reason']=='Traffic'].groupby('Date').count()['twp'].plot()
+plt.show()
+
+dia_hora = df.groupby(by=['Day of Week', 'Hour']).count()['twp'].unstack()
+print(dia_hora)
+sns.heatmap(dia_hora)
+plt.show()
+
+sns.clustermap(dia_hora)
+plt.show()
+
+dia_mes = df.groupby(by=['Day of Week', 'Month']).count()['twp'].unstack()
+sns.heatmap(dia_mes)
+plt.show()
+
+sns.clustermap(dia_mes)
+plt.show()
