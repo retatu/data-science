@@ -35,3 +35,9 @@ print(returns.idxmax(axis=0))
 
 print(returns.std())
 print(returns[returns.index.date > datetime.date(2015,1,1)].std())
+
+sns.distplot(returns[(returns.index.date  >= datetime.date(2015,1,1)) & (returns.index.date  <= datetime.date(2015,12,31))]['MS Returns'], bins=50)
+plt.show()
+
+sns.distplot(returns[(returns.index.date  >= datetime.date(2008,1,1)) & (returns.index.date  <= datetime.date(2008,12,31))]['CB Returns'], bins=100)
+lt.show()
