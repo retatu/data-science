@@ -40,4 +40,20 @@ sns.distplot(returns[(returns.index.date  >= datetime.date(2015,1,1)) & (returns
 plt.show()
 
 sns.distplot(returns[(returns.index.date  >= datetime.date(2008,1,1)) & (returns.index.date  <= datetime.date(2008,12,31))]['CB Returns'], bins=100)
-lt.show()
+plt.show()
+
+bank_stocks.xs(key='Close', axis=1, level='Stock Info').plot(figsize=(12,3))
+plt.show()
+
+#Média movel é a média que varia de um determinado tempo, nesse caso, é feito a média sempre dos ultimos 30 dias
+#Rolling faz agrupamento tipo o groupby mas a diferença é que passa um intervalo de linhas
+media = bank_stocks.xs(key='Close', level='Stock Info', axis=1)['BAC'][bank_stocks.index.year == 2008].rolling(window=30).mean()
+bank_stocks.xs(key='Close', level='Stock Info', axis=1)['BAC'][bank_stocks.index.year == 2008].plot(figsize=(12,5))
+media.plot()
+plt.show()
+
+sns.heatmap(bank_stocks.xs(key='Close', axis=1, level='Stock Info').corr(), annot=True)
+plt.show()
+
+sns.clustermap(bank_stocks.xs(key='Close', axis=1, level='Stock Info').corr(), annot=True)
+plt.show()
