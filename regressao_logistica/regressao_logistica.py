@@ -4,6 +4,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
+from sklearn.metrics import classification_report
+from sklearn.metrics import confusion_matrix
 
 train = pd.read_csv('titanic_train.csv')
 print(train.head())
@@ -82,7 +84,5 @@ logmodel = LogisticRegression()
 logmodel.fit(x_train, y_train)
 predictions = logmodel.predict(x_test)
 
-from sklearn.metrics import classification_report
-from sklearn.metrics import confusion_matrix
 print(classification_report(y_test, predictions))
 print(confusion_matrix(y_test, predictions))
