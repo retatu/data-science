@@ -24,3 +24,4 @@ ax1.scatter(data[0][:, 0], data[0][:, 1], c=data[1], cmap = 'rainbow')
 ax2.set_title('Kmeans')
 ax2.scatter(data[0][:, 0], data[0][:, 1], c=kmeans.labels_, cmap = 'rainbow')
 plt.show()
+    
