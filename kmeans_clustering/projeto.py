@@ -48,4 +48,4 @@ data['Cluster'] = data['Private'].apply(yes_to_1)
 print(data.head())
 
 print(classification_report(data['Cluster'], kmc.labels_))
-print(confusion_matrix(data['Cluster'], kmc.labels_)
+print(confusion_matrix(data['Cluster'], kmc.labels_))
