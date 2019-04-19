@@ -47,14 +47,3 @@ similar_to_liarliar.dropna(inplace=True)
 similar_to_liarliar = similar_to_liarliar.join(ratings['count'])
 print(similar_to_liarliar[similar_to_liarliar['count'] > 75].sort_values('Correlation', ascending=False).head(10))
 
-
-
-
-
-
-
-
-
-
-
-
